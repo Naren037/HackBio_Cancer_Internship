@@ -18,7 +18,7 @@ Protein-Protein Interaction (PPI) network is the analysis of Protein interaction
 
 **PROTEIN-PROTEIN INTERACTION DETECTION:**
 
-**Biophysical methods** - Mass spectrometry, affinity chromatography, co-immunoprecipitation, protein microarrays, protein fragment completion, phage display, X-ray crystallography, and NMR spectroscopy (Rao et al., 2014a).
+**Biophysical methods** - Mass spectrometry, affinity chromatography, co-immunoprecipitation, protein microarrays, protein fragment completion, phage display, X-ray crystallography, and NMR spectroscopy (Rao et al., 2014).
 
 **High-throughput methods**
 
@@ -28,7 +28,7 @@ Protein-Protein Interaction (PPI) network is the analysis of Protein interaction
 
 ● Synthetic lethality - Introducing mutations in genes that are viable on their own but become lethal when combined - indirect; can predict functional interactions.
 
-**Computational methods -** The generation of valuable experimental data led to the development of several _in silico_ methods for predicting new protein-protein interactions, such as sequence-based approaches, structure-based approaches, chromosome proximity, gene fusion, _in silico_ 2 hybrid, mirror tree, phylogenetic tree, gene ontology, and gene expression-based approaches (Rao et al., 2014). ****
+**Computational methods -** The generation of valuable experimental data led to the development of several _in silico_ methods for predicting new protein-protein interactions, such as sequence-based approaches, structure-based approaches, chromosome proximity, gene fusion, _in silico_ 2 hybrid, mirror tree, phylogenetic tree, gene ontology, and gene expression-based approaches (Rao et al., 2014). 
 
 **Protein interaction database** - The predicted protein-protein interaction data are stored in databases such as MINT and STRING (Calderone et al., 2020; Szklarczyk et al., 2023)
 
@@ -50,8 +50,6 @@ Luo, F., Yang, Y., Chen, C.-F., Chang, R., Zhou, J., & Scheuermann, R. H. (2007)
 
 Rao, V. S., Srinivas, K., Sujini, G. N., & Kumar, G. N. S. (2014a). Protein-Protein Interaction Detection: Methods and Analysis. _International Journal of Proteomics_, _2014_, 1–12. <https://doi.org/10.1155/2014/147648>
 
-Rao, V. S., Srinivas, K., Sujini, G. N., & Kumar, G. N. S. (2014b). Protein-Protein Interaction Detection: Methods and Analysis. _International Journal of Proteomics_, _2014_, 1–12. <https://doi.org/10.1155/2014/147648>
-
 Sanz-Pamplona, R., Berenguer, A., Sole, X., Cordero, D., Crous-Bou, M., Serra-Musach, J., Guinó, E., Pujana, M. Á., & Moreno, V. (2012). Tools for protein-protein interaction network analysis in cancer research. _Clinical and Translational Oncology_, _14_(1), 3–14. <https://doi.org/10.1007/s12094-012-0755-9>
 
 Szklarczyk, D., Kirsch, R., Koutrouli, M., Nastou, K., Mehryary, F., Hachilif, R., Gable, A. L., Fang, T., Doncheva, N. T., Pyysalo, S., Bork, P., Jensen, L. J., & von Mering, C. (2023). The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest. _Nucleic Acids Research_, _51_(D1), D638–D646. <https://doi.org/10.1093/nar/gkac1000>
@@ -60,7 +58,7 @@ Walhout, A. J. M., & Vidal, M. (2001). High-Throughput Yeast Two-Hybrid Assays f
 
  
 
-\
+
 
 
 <!--EndFragment-->
