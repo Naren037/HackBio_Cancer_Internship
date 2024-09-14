@@ -1,6 +1,7 @@
 # READ.ME <- https://github.com/Naren037/hackbio-cancer-internship/blob/main/README_Task2.md
 
 library(gplots) # Loading gplots to use heatmap.2
+library(ggplot2) # Loading gplots to make bubble plots
 
 glioblastoma <- read.csv("C:/Users/Naren M/Desktop/Hackbio/Task 2/glioblastoma.csv", row.names=1) # Loading the data set
 
