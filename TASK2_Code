@@ -49,5 +49,5 @@ downregulated_genes$rownames.glioblastoma
 upregulated_genes$rownames.glioblastoma
 
 # Bubble plot
-> ggplot(enrichment_all, aes(x = log10.p.value, y = Pathway, size = No.of.Genes)) +
+ggplot(enrichment_all, aes(x = log10.p.value, y = Pathway, size = No.of.Genes)) +
 +     geom_point(alpha=0.5)
