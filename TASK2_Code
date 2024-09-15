@@ -22,6 +22,8 @@ group2 <- data.frame(glioblastoma$S6, glioblastoma$S7, glioblastoma$S8, glioblas
 # Foldchange calculations
 avg1 <- as.data.frame(rowMeans(group1))
 avg2 <- as.data.frame(rowMeans(group2))
+for (i in 1:nrow(avg1)) {if(avg1[i, ] == 0) {avg1[i, ] <- 1}}
+for (j in 1:nrow(avg2)) {if(avg2[j, ] == 0) {avg2[j, ] <- 1}}  
 
 Foldchange <- log2(avg1) - log2(avg2)
 
