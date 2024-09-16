@@ -47,6 +47,10 @@ for (i in 1:nrow(glioblastoma))
 }
 p_values <- as.data.frame(p_values)
 
+# "Scatter plot"
+
+plot(x = p_values$p_values, y = Foldchange$`rowMeans(group1)`, col = 'black', pch = 21, bg = 'lightpink', xlab = "p-value", ylab = "Foldchange", main = "p-value vs Foldchange")
+
 # "Finding differentially regulated genes"
 
 genes <- data.frame(rownames(glioblastoma))
