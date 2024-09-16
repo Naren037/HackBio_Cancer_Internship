@@ -15,7 +15,7 @@ Ghizal Niko (@Ghizal), David Ojo (@Dajom), Ademilola Adekoya (@Demi\_Nevaeh), Em
 
 2. **METHODOLOGY**
 
-   528 differentially expressed genes from 10 glioblastoma samples were analyzed using RStudio. Heatmaps were generated using heatmap.2 and were visualised with sequential and diverging colour palettes. Clustering was performed by rows, columns, and both. Fold change was calculated using log2(mean\_group1) - log2(mean\_group2), and the p-value was calculated using paired t-tests. The upregulated and downregulated genes were subset using a fold change threshold of 1.5 and p-value < 0.05. The biological pathways involved were identified using ShinyGo 8.0 with an FDR cut-off of 0.16. A bubble plot was generated for the top 6 pathways. 
+   528 differentially expressed genes from 10 glioblastoma samples were analyzed using RStudio. Heatmaps were generated using heatmap.2 and were visualised with sequential and diverging colour palettes. Clustering was performed by rows, columns, and both. Fold change was calculated using log2(mean\_group1) - log2(mean\_group2), and the p-value was calculated using paired t-tests. A scatter plot was done for p-values vs foldchange and the upregulated and downregulated genes were subset using a fold change threshold of 1.5 and p-value < 0.05. The biological pathways involved were identified using ShinyGo 8.0 with an FDR cut-off of 0.16. A bubble plot was generated for the top 6 pathways. 
 
 3. **RESULTS**
 
@@ -39,7 +39,11 @@ Ghizal Niko (@Ghizal), David Ojo (@Dajom), Ademilola Adekoya (@Demi\_Nevaeh), Em
       ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFTnd9pUp7-6R5Dp_T6N9VmESmlBUNFRCNg_ZU2Lfxyu5LRWyBETtnn16oZGuVmHFg_p6Ch4DPxiL8VmC9JjnypY-TYsizJ9h1TAaEZ5iMNUFbNntUDYzG5ARVJGxuM4Mze3mg80bIWGx0Ew_FKRie7w?key=1GDaguhNYDgftMhdZ7Y7yw)
 
    **Figure 4.** Heat map generated using a diverging color palette and clustered by both columns and rows
-
+      
+      ![Scatterplot](https://github.com/user-attachments/assets/8257a3a1-ddc0-4a53-9246-2ef694201173)
+   
+   **Figure 5.** Scatter plot of all obtained p-values vs foldchange
+   
    3.2. **Differentially expressed genes:**
 
    A subset of 10 overexpressed and 2 underexpressed genes were obtained.
@@ -83,7 +87,7 @@ Ghizal Niko (@Ghizal), David Ojo (@Dajom), Ademilola Adekoya (@Demi\_Nevaeh), Em
 
     **Figure 5.** Bubble plot of function enrichment analysis
 
-4. **DISCUSSION**
+5. **DISCUSSION**
 
    4.1. **Importance of Colour Palette in Heatmaps**
 
@@ -103,7 +107,7 @@ Ghizal Niko (@Ghizal), David Ojo (@Dajom), Ademilola Adekoya (@Demi\_Nevaeh), Em
 
       Regulates protein turnover, removing damaged proteins and controlling cellular functions. They include genes encoding ubiquitin proteins, caspases, and lysosomal proteins. They have associations to cancer, including glioblastoma (Auzmendi-Iriarte et al., 2022).
 
-5. **REFERENCES** 
+6. **REFERENCES** 
 
    Auzmendi-Iriarte, J., Otaegi-Ugartemendia, M., Carrasco-Garcia, E., Azkargorta, M., Diaz, A., Saenz-Antoñanzas, A., Andermatten, J. A., Garcia-Puga, M., Garcia, I., Elua-Pinin, A., Ruiz, I., Sampron, N., Elortza, F., Cuervo, A. M., & Matheu, A. (2022). Chaperone-Mediated Autophagy Controls Proteomic and Transcriptomic Pathways to Maintain Glioma Stem Cell Activity. _Cancer Research_, _82_(7), 1283–1297. <https://doi.org/10.1158/0008-5472.CAN-21-2161>
 
