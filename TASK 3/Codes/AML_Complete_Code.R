@@ -80,7 +80,6 @@ dge_combined <- DGEList(counts = combined_counts, group = NULL)
 dge_combined <- calcNormFactors(dge_combined)
 dge_combined_TMM <- cpm(dge_combined, log = F)
 
-
 # Pre-processing 3 - Upper Quantile filter of genes -> Removes lowly expressed genes
 
 dataFilt <- TCGAanalyze_Filtering(
@@ -161,7 +160,6 @@ write.csv(dataDEGs, "AML_DEGs.csv")
       TFname = "DEA genes Primary Vs Recurrent",
       RegulonList = Genelist)
 
-  
 # Enrichment Analysis EA (TCGAVisualize)
 # Gene Ontology (GO) and Pathway enrichment barPlot
   
