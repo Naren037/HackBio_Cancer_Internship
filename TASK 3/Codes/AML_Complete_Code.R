@@ -1,4 +1,4 @@
-               ############## DGE ANALYSIS AND FUNCTIONAL ENRICHMENT ##################
+                                                   ############## DGE ANALYSIS AND FUNCTIONAL ENRICHMENT ##################
 
 # START OF CODE
 
@@ -182,7 +182,7 @@ for (i in 1:5) { print(ansEA[["ResBP"]][[i]])}
 # END OF CODE 
 
 
-                            ############## MACHINE LEARNING ##################
+                                                                ############## MACHINE LEARNING ##################
 
 
 # START OF CODE
