@@ -18,7 +18,7 @@
 
    2. ## **Preprocessing for DGE** 
 
-      Cross-sample RNA-seq data were preprocessed in 3 steps: replacing NA values with rowmeans, TMM normalization using Edge to accommodate variations in sequencing depth and sample bias, and using an upper quantile filter to remove lowly    expressed genes.
+      The Cross-sample RNA-seq data were preprocessed in 3 steps: replacing NA values with rowmeans, TMM normalization using EdgeR to accommodate variations in sequencing depth and sample bias, and using an upper quantile filter to remove lowly    expressed genes.
 
    3. ## **Differential Gene Expression (DGE) analysis**
 
