@@ -1,4 +1,4 @@
-# README - 
+# README - https://github.com/Naren037/HackBio_Cancer_Internship/blob/87c6fe99a5e60f629a08c066d9278e19913d6e13/TASK%204/Codes/README
 
 # START OF CODE 
 
@@ -11,7 +11,6 @@ library(edgeR)
 library(org.Hs.eg.db)
 library(ggplot2)
 library(DESeq2)
-library(FactoMineR) 
 library(factoextra)
 library(cluster) 
 library(caret)
@@ -19,9 +18,7 @@ library(pROC)
 library(DALEX)
 
 
-
-############## DGE ANALYSIS AND FUNCTIONAL ENRICHMENT ##################
-
+############## UNSUPERVISED MACHINE LEARNING ##################
 
 
 # Data Mining using TCGABiolinks
@@ -35,7 +32,6 @@ GDCdownload(query_LGG)
 DGE_LGG <- GDCprepare(query_LGG, summarizedExperiment = T)
 LGG_Dataset <- assay(DGE_LGG, 'unstranded')
 LGG_Dataset <- as.data.frame(LGG_Dataset)
-#write.csv(LGG_Dataset, "LGG_Dataset.csv")
 
 # Preprocessing 1 - Variance stabilizing Transformation (VST)
 pre1 <- DESeqDataSetFromMatrix(countData = LGG_Dataset, 
@@ -179,9 +175,7 @@ barplot(TERT_Cluster,
         ylim = c(0, 250))
 
 
-
 ############## DGE ANALYSIS AND FUNCTIONAL ENRICHMENT ##################
-
 
 
 DGE_Dataset <- t(LGG_Dataset)
